@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "3teste",
+    "name": "RN Api",
     "slug": "3teste",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.filmes.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95b3ada8-22f8-4009-936d-a07c618bfab2"
+      }
     }
   }
 }
